@@ -1,0 +1,28 @@
+{
+  "popravljanjeApp": {
+    "slika": {
+      "home": {
+        "title": "Slikas",
+        "createLabel": "Create a new Slika",
+        "createOrEditLabel": "Create or edit a Slika",
+        "search": "Search for Slika",
+        "notFound": "No Slikas found"
+      },
+      "created": "A new Slika is created with identifier {{ param }}",
+      "updated": "A Slika is updated with identifier {{ param }}",
+      "deleted": "A Slika is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Slika {{ id }}?"
+      },
+      "detail": {
+        "title": "Slika"
+      },
+      "ime": "Ime",
+      "slika": "Slika",
+      "uploaded": "Uploaded",
+      "mainslika": "Mainslika",
+      "mainslika": "Mainslika",
+      "galerija": "Galerija"
+    }
+  }
+}

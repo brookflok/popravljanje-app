@@ -1,0 +1,21 @@
+{
+  "name": "Entiteti",
+  "fields": [
+    {
+      "fieldName": "imeEntiteta",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201104105611",
+  "entityTableName": "entiteti",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

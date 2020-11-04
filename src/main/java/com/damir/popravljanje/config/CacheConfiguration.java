@@ -47,6 +47,25 @@ public class CacheConfiguration {
             createCache(cm, com.damir.popravljanje.domain.User.class.getName());
             createCache(cm, com.damir.popravljanje.domain.Authority.class.getName());
             createCache(cm, com.damir.popravljanje.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.damir.popravljanje.domain.DodatniInfoUser.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.DodatniInfoUser.class.getName() + ".artikls");
+            createCache(cm, com.damir.popravljanje.domain.Artikl.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Usluga.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Potreba.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Galerija.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.MainSlika.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.ProfilnaSlika.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Slika.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Informacije.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.JavnoPitanje.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.OdgovorNaJavnoPitanje.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Entiteti.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Kanton.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Lokacija.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Ucesnici.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Ucesnici.class.getName() + ".dodatniInfoUsers");
+            createCache(cm, com.damir.popravljanje.domain.Poruka.class.getName());
+            createCache(cm, com.damir.popravljanje.domain.Chat.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

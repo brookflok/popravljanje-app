@@ -1,0 +1,37 @@
+{
+  "name": "Lokacija",
+  "fields": [
+    {
+      "fieldName": "adresa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postanskiBroj",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "grad",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "kanton",
+      "otherEntityRelationshipName": "lokacija",
+      "relationshipName": "kanton",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201104105811",
+  "entityTableName": "lokacija",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

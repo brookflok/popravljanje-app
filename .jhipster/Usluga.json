@@ -1,0 +1,21 @@
+{
+  "name": "Usluga",
+  "fields": [
+    {
+      "fieldName": "cijena",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201104104711",
+  "entityTableName": "usluga",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

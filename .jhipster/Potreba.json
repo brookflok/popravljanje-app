@@ -1,0 +1,25 @@
+{
+  "name": "Potreba",
+  "fields": [
+    {
+      "fieldName": "cijenaMin",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "cijenaMax",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201104104811",
+  "entityTableName": "potreba",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

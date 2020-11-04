@@ -1,0 +1,25 @@
+{
+  "popravljanjeApp": {
+    "mainSlika": {
+      "home": {
+        "title": "Main Slikas",
+        "createLabel": "Create a new Main Slika",
+        "createOrEditLabel": "Create or edit a Main Slika",
+        "search": "Search for Main Slika",
+        "notFound": "No Main Slikas found"
+      },
+      "created": "A new Main Slika is created with identifier {{ param }}",
+      "updated": "A Main Slika is updated with identifier {{ param }}",
+      "deleted": "A Main Slika is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Main Slika {{ id }}?"
+      },
+      "detail": {
+        "title": "Main Slika"
+      },
+      "ime": "Ime",
+      "datum": "Datum",
+      "artikl": "Artikl"
+    }
+  }
+}

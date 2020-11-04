@@ -1,0 +1,34 @@
+{
+  "name": "MainSlika",
+  "fields": [
+    {
+      "fieldName": "ime",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "datum",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "artikl",
+      "otherEntityRelationshipName": "mainSlika",
+      "relationshipName": "artikl",
+      "otherEntityField": "ime",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20201104105011",
+  "entityTableName": "main_slika",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

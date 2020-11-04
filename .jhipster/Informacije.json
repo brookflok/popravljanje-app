@@ -1,0 +1,38 @@
+{
+  "name": "Informacije",
+  "fields": [
+    {
+      "fieldName": "vrstaOglasa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "datumObjave",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "brojPregleda",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "artikl",
+      "otherEntityRelationshipName": "informacije",
+      "relationshipName": "artikl",
+      "otherEntityField": "id",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20201104105311",
+  "entityTableName": "informacije",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

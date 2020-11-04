@@ -1,0 +1,26 @@
+{
+  "popravljanjeApp": {
+    "informacije": {
+      "home": {
+        "title": "Informacijes",
+        "createLabel": "Create a new Informacije",
+        "createOrEditLabel": "Create or edit a Informacije",
+        "search": "Search for Informacije",
+        "notFound": "No Informacijes found"
+      },
+      "created": "A new Informacije is created with identifier {{ param }}",
+      "updated": "A Informacije is updated with identifier {{ param }}",
+      "deleted": "A Informacije is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Informacije {{ id }}?"
+      },
+      "detail": {
+        "title": "Informacije"
+      },
+      "vrstaOglasa": "Vrsta Oglasa",
+      "datumObjave": "Datum Objave",
+      "brojPregleda": "Broj Pregleda",
+      "artikl": "Artikl"
+    }
+  }
+}

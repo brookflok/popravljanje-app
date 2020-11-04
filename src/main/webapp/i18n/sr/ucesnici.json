@@ -1,0 +1,24 @@
+{
+  "popravljanjeApp": {
+    "ucesnici": {
+      "home": {
+        "title": "Ucesnicis",
+        "createLabel": "Kreiraj novi Ucesnici",
+        "createOrEditLabel": "Kreirajte ili izmenite Ucesnici",
+        "search": "Potražite Ucesnici",
+        "notFound": "No Ucesnicis found"
+      },
+      "created": "Kreiran je novi Ucesnici pod nazivom {{ param }}",
+      "updated": "Ucesnici pod nazivom {{ param }} je ažuriran",
+      "deleted": "Ucesnici pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Ucesnici pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Ucesnici"
+      },
+      "chat": "Chat",
+      "dodatniInfoUser": "Dodatni Info User"
+    }
+  }
+}

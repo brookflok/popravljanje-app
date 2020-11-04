@@ -1,0 +1,33 @@
+{
+  "popravljanjeApp": {
+    "dodatniInfoUser": {
+      "home": {
+        "title": "Dodatni Info Users",
+        "createLabel": "Create a new Dodatni Info User",
+        "createOrEditLabel": "Create or edit a Dodatni Info User",
+        "search": "Search for Dodatni Info User",
+        "notFound": "No Dodatni Info Users found"
+      },
+      "created": "A new Dodatni Info User is created with identifier {{ param }}",
+      "updated": "A Dodatni Info User is updated with identifier {{ param }}",
+      "deleted": "A Dodatni Info User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Dodatni Info User {{ id }}?"
+      },
+      "detail": {
+        "title": "Dodatni Info User"
+      },
+      "korisnickoime": "Korisnickoime",
+      "brojTelefona": "Broj Telefona",
+      "majstor": "Majstor",
+      "postoji": "Postoji",
+      "detaljniOpis": "Detaljni Opis",
+      "lokacija": "Lokacija",
+      "profilnaSlika": "Profilna Slika",
+      "user": "User",
+      "artikl": "Artikl",
+      "poruka": "Poruka",
+      "ucesnici": "Ucesnici"
+    }
+  }
+}

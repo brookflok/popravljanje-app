@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Poruka.
+    -->
+    <changeSet id="20201104110011-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="dodatni_info_user_id"
+                                 baseTableName="poruka"
+                                 constraintName="fk_poruka_dodatni_info_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="dodatni_info_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="chat_id"
+                                 baseTableName="poruka"
+                                 constraintName="fk_poruka_chat_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="chat"/>
+
+    </changeSet>
+</databaseChangeLog>

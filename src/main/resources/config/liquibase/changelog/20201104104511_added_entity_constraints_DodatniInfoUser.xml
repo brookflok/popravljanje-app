@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity DodatniInfoUser.
+    -->
+    <changeSet id="20201104104511-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="lokacija_id"
+                                 baseTableName="dodatni_info_user"
+                                 constraintName="fk_dodatni_info_user_lokacija_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lokacija"/>
+
+        <addForeignKeyConstraint baseColumnNames="profilna_slika_id"
+                                 baseTableName="dodatni_info_user"
+                                 constraintName="fk_dodatni_info_user_profilna_slika_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="profilna_slika"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="dodatni_info_user"
+                                 constraintName="fk_dodatni_info_user_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="ucesnici_id"
+                                 baseTableName="dodatni_info_user"
+                                 constraintName="fk_dodatni_info_user_ucesnici_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ucesnici"/>
+
+    </changeSet>
+</databaseChangeLog>

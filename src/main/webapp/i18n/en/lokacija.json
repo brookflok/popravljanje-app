@@ -1,0 +1,26 @@
+{
+  "popravljanjeApp": {
+    "lokacija": {
+      "home": {
+        "title": "Lokacijas",
+        "createLabel": "Create a new Lokacija",
+        "createOrEditLabel": "Create or edit a Lokacija",
+        "search": "Search for Lokacija",
+        "notFound": "No Lokacijas found"
+      },
+      "created": "A new Lokacija is created with identifier {{ param }}",
+      "updated": "A Lokacija is updated with identifier {{ param }}",
+      "deleted": "A Lokacija is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Lokacija {{ id }}?"
+      },
+      "detail": {
+        "title": "Lokacija"
+      },
+      "adresa": "Adresa",
+      "postanskiBroj": "Postanski Broj",
+      "grad": "Grad",
+      "kanton": "Kanton"
+    }
+  }
+}

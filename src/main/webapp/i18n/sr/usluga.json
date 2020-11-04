@@ -1,0 +1,23 @@
+{
+  "popravljanjeApp": {
+    "usluga": {
+      "home": {
+        "title": "Uslugas",
+        "createLabel": "Kreiraj novi Usluga",
+        "createOrEditLabel": "Kreirajte ili izmenite Usluga",
+        "search": "Potražite Usluga",
+        "notFound": "No Uslugas found"
+      },
+      "created": "Kreiran je novi Usluga pod nazivom {{ param }}",
+      "updated": "Usluga pod nazivom {{ param }} je ažuriran",
+      "deleted": "Usluga pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Usluga pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Usluga"
+      },
+      "cijena": "Cijena"
+    }
+  }
+}

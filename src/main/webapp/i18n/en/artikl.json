@@ -1,0 +1,32 @@
+{
+  "popravljanjeApp": {
+    "artikl": {
+      "home": {
+        "title": "Artikls",
+        "createLabel": "Create a new Artikl",
+        "createOrEditLabel": "Create or edit a Artikl",
+        "search": "Search for Artikl",
+        "notFound": "No Artikls found"
+      },
+      "created": "A new Artikl is created with identifier {{ param }}",
+      "updated": "A Artikl is updated with identifier {{ param }}",
+      "deleted": "A Artikl is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Artikl {{ id }}?"
+      },
+      "detail": {
+        "title": "Artikl"
+      },
+      "ime": "Ime",
+      "kratkiOpis": "Kratki Opis",
+      "detaljniOpis": "Detaljni Opis",
+      "majstor": "Majstor",
+      "postoji": "Postoji",
+      "lokacija": "Lokacija",
+      "potreba": "Potreba",
+      "usluga": "Usluga",
+      "informacije": "Informacije",
+      "dodatniinfouser": "Dodatniinfouser"
+    }
+  }
+}
