@@ -1,0 +1,137 @@
+entity DodatniInfoUser {
+korisnickoime String,
+brojTelefona String,
+majstor Boolean,
+postoji Boolean,
+detaljniOpis String,
+}
+
+entity Artikl{
+ime String,
+kratkiOpis String,
+detaljniOpis String,
+majstor Boolean,
+postoji Boolean,
+}
+
+entity Usluga{
+cijena Double,
+}
+
+entity Potreba{
+cijenaMin Double,
+cijenaMax Double,
+}
+
+entity Galerija {
+    ime String,
+    datum Instant
+}
+
+entity MainSlika {
+    ime String,
+    datum Instant
+}
+
+entity ProfilnaSlika {
+    ime String,
+    datum Instant
+}
+
+entity Slika {
+    ime String,
+    slika ImageBlob,
+    uploaded Instant
+    
+}
+
+entity Informacije{
+vrstaOglasa String,
+datumObjave Instant,
+brojPregleda Integer
+}
+
+entity JavnoPitanje{
+pitanje String,
+datum Instant,
+prikaz Boolean,
+}
+
+entity OdgovorNaJavnoPitanje{
+odgovor String,
+datum Instant,
+prikaz Boolean,
+}
+
+entity Entiteti {
+	imeEntiteta String
+}
+
+entity Kanton {
+	imeKantona String
+}
+
+entity Lokacija {
+	adresa String,
+	postanskiBroj String,
+	grad String,
+}
+
+entity Ucesnici{
+
+}
+
+entity Poruka{
+ text String,
+ datum Instant,
+ postoji Boolean,
+}
+
+entity Chat{
+	datum Instant,
+    postoji Boolean,
+}
+
+relationship ManyToOne {
+	Kanton{entitet} to Entiteti,
+    Lokacija{kanton} to Kanton,
+    Poruka{chat} to Chat,
+    Chat{artikl} to Artikl
+    
+}
+
+
+relationship OneToOne {
+	DodatniInfoUser{lokacija} to Lokacija
+    Artikl{lokacija} to Lokacija
+}
+
+
+relationship ManyToOne {
+	JavnoPitanje{dodatniinfoUser} to DodatniInfoUser
+    OdgovorNaJavnoPitanje{dodatniinfoUser} to DodatniInfoUser
+    Slika{galerija(ime)} to Galerija
+    JavnoPitanje{artikl} to Artikl
+}
+
+relationship OneToMany{
+	DodatniInfoUser{artikl} to Artikl{dodatniinfouser}
+	Ucesnici to DodatniInfoUser
+}
+
+relationship OneToOne{
+	Artikl{potreba} to Potreba,
+    Artikl{usluga} to Usluga,
+ 	Slika{mainslika(ime)} to MainSlika,
+    Slika{mainslika(ime)} to ProfilnaSlika,
+    Galerija{artikl(ime)} to Artikl,
+    MainSlika{artikl(ime)} to Artikl,
+   	DodatniInfoUser to ProfilnaSlika, 
+    DodatniInfoUser to User,
+    Informacije to Artikl,
+    OdgovorNaJavnoPitanje to JavnoPitanje,
+    Ucesnici to Chat
+    Poruka to DodatniInfoUser
+}
+
+
