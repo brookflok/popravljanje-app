@@ -1,0 +1,45 @@
+{
+  "name": "OdgovorNaJavnoPitanje",
+  "fields": [
+    {
+      "fieldName": "odgovor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "datum",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "prikaz",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "javnoPitanje",
+      "otherEntityRelationshipName": "odgovorNaJavnoPitanje",
+      "relationshipName": "javnoPitanje",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "dodatniInfoUser",
+      "otherEntityRelationshipName": "odgovorNaJavnoPitanje",
+      "relationshipName": "dodatniinfoUser",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201104105511",
+  "entityTableName": "odgovor_na_javno_pitanje",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

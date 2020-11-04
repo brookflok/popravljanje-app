@@ -1,0 +1,29 @@
+{
+  "name": "Kanton",
+  "fields": [
+    {
+      "fieldName": "imeKantona",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "entiteti",
+      "otherEntityRelationshipName": "kanton",
+      "relationshipName": "entitet",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201104105711",
+  "entityTableName": "kanton",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

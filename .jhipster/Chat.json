@@ -1,0 +1,40 @@
+{
+  "name": "Chat",
+  "fields": [
+    {
+      "fieldName": "datum",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "postoji",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "artikl",
+      "otherEntityRelationshipName": "chat",
+      "relationshipName": "artikl",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "ucesnici",
+      "otherEntityRelationshipName": "chat",
+      "relationshipName": "ucesnici",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20201104110111",
+  "entityTableName": "chat",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

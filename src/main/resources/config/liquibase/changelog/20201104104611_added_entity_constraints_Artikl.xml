@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Artikl.
+    -->
+    <changeSet id="20201104104611-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="lokacija_id"
+                                 baseTableName="artikl"
+                                 constraintName="fk_artikl_lokacija_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lokacija"/>
+
+        <addForeignKeyConstraint baseColumnNames="potreba_id"
+                                 baseTableName="artikl"
+                                 constraintName="fk_artikl_potreba_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="potreba"/>
+
+        <addForeignKeyConstraint baseColumnNames="usluga_id"
+                                 baseTableName="artikl"
+                                 constraintName="fk_artikl_usluga_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usluga"/>
+
+        <addForeignKeyConstraint baseColumnNames="dodatniinfouser_id"
+                                 baseTableName="artikl"
+                                 constraintName="fk_artikl_dodatniinfouser_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="dodatni_info_user"/>
+
+    </changeSet>
+</databaseChangeLog>

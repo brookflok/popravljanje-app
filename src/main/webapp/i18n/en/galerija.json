@@ -1,0 +1,25 @@
+{
+  "popravljanjeApp": {
+    "galerija": {
+      "home": {
+        "title": "Galerijas",
+        "createLabel": "Create a new Galerija",
+        "createOrEditLabel": "Create or edit a Galerija",
+        "search": "Search for Galerija",
+        "notFound": "No Galerijas found"
+      },
+      "created": "A new Galerija is created with identifier {{ param }}",
+      "updated": "A Galerija is updated with identifier {{ param }}",
+      "deleted": "A Galerija is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Galerija {{ id }}?"
+      },
+      "detail": {
+        "title": "Galerija"
+      },
+      "ime": "Ime",
+      "datum": "Datum",
+      "artikl": "Artikl"
+    }
+  }
+}

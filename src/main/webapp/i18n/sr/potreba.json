@@ -1,0 +1,24 @@
+{
+  "popravljanjeApp": {
+    "potreba": {
+      "home": {
+        "title": "Potrebas",
+        "createLabel": "Kreiraj novi Potreba",
+        "createOrEditLabel": "Kreirajte ili izmenite Potreba",
+        "search": "Potražite Potreba",
+        "notFound": "No Potrebas found"
+      },
+      "created": "Kreiran je novi Potreba pod nazivom {{ param }}",
+      "updated": "Potreba pod nazivom {{ param }} je ažuriran",
+      "deleted": "Potreba pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Potreba pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Potreba"
+      },
+      "cijenaMin": "Cijena Min",
+      "cijenaMax": "Cijena Max"
+    }
+  }
+}

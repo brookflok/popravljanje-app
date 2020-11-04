@@ -1,0 +1,27 @@
+{
+  "popravljanjeApp": {
+    "poruka": {
+      "home": {
+        "title": "Porukas",
+        "createLabel": "Create a new Poruka",
+        "createOrEditLabel": "Create or edit a Poruka",
+        "search": "Search for Poruka",
+        "notFound": "No Porukas found"
+      },
+      "created": "A new Poruka is created with identifier {{ param }}",
+      "updated": "A Poruka is updated with identifier {{ param }}",
+      "deleted": "A Poruka is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Poruka {{ id }}?"
+      },
+      "detail": {
+        "title": "Poruka"
+      },
+      "text": "Text",
+      "datum": "Datum",
+      "postoji": "Postoji",
+      "dodatniInfoUser": "Dodatni Info User",
+      "chat": "Chat"
+    }
+  }
+}

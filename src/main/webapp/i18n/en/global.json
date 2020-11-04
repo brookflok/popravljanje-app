@@ -7,6 +7,23 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "dodatniInfoUser": "Dodatni Info User",
+        "artikl": "Artikl",
+        "usluga": "Usluga",
+        "potreba": "Potreba",
+        "galerija": "Galerija",
+        "mainSlika": "Main Slika",
+        "profilnaSlika": "Profilna Slika",
+        "slika": "Slika",
+        "informacije": "Informacije",
+        "javnoPitanje": "Javno Pitanje",
+        "odgovorNaJavnoPitanje": "Odgovor Na Javno Pitanje",
+        "entiteti": "Entiteti",
+        "kanton": "Kanton",
+        "lokacija": "Lokacija",
+        "ucesnici": "Ucesnici",
+        "poruka": "Poruka",
+        "chat": "Chat",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

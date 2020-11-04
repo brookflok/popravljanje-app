@@ -1,0 +1,82 @@
+{
+  "name": "DodatniInfoUser",
+  "fields": [
+    {
+      "fieldName": "korisnickoime",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "brojTelefona",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "majstor",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "postoji",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "detaljniOpis",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "lokacija",
+      "otherEntityRelationshipName": "dodatniInfoUser",
+      "relationshipName": "lokacija",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "profilnaSlika",
+      "otherEntityRelationshipName": "dodatniInfoUser",
+      "relationshipName": "profilnaSlika",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "dodatniInfoUser",
+      "relationshipName": "user",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "artikl",
+      "otherEntityRelationshipName": "dodatniinfouser",
+      "relationshipName": "artikl"
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "poruka",
+      "otherEntityRelationshipName": "dodatniInfoUser",
+      "relationshipName": "poruka",
+      "ownerSide": false
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "ucesnici",
+      "otherEntityRelationshipName": "dodatniInfoUser",
+      "relationshipName": "ucesnici",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201104104511",
+  "entityTableName": "dodatni_info_user",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

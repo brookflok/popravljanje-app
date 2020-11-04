@@ -1,0 +1,27 @@
+{
+  "popravljanjeApp": {
+    "odgovorNaJavnoPitanje": {
+      "home": {
+        "title": "Odgovor Na Javno Pitanjes",
+        "createLabel": "Kreiraj novi Odgovor Na Javno Pitanje",
+        "createOrEditLabel": "Kreirajte ili izmenite Odgovor Na Javno Pitanje",
+        "search": "Potražite Odgovor Na Javno Pitanje",
+        "notFound": "No Odgovor Na Javno Pitanjes found"
+      },
+      "created": "Kreiran je novi Odgovor Na Javno Pitanje pod nazivom {{ param }}",
+      "updated": "Odgovor Na Javno Pitanje pod nazivom {{ param }} je ažuriran",
+      "deleted": "Odgovor Na Javno Pitanje pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Odgovor Na Javno Pitanje pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Odgovor Na Javno Pitanje"
+      },
+      "odgovor": "Odgovor",
+      "datum": "Datum",
+      "prikaz": "Prikaz",
+      "javnoPitanje": "Javno Pitanje",
+      "dodatniinfoUser": "Dodatniinfo User"
+    }
+  }
+}

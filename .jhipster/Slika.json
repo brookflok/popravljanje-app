@@ -1,0 +1,54 @@
+{
+  "name": "Slika",
+  "fields": [
+    {
+      "fieldName": "ime",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "slika",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "uploaded",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "mainSlika",
+      "otherEntityRelationshipName": "slika",
+      "relationshipName": "mainslika",
+      "otherEntityField": "ime",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "profilnaSlika",
+      "otherEntityRelationshipName": "slika",
+      "relationshipName": "mainslika",
+      "otherEntityField": "ime",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "galerija",
+      "otherEntityRelationshipName": "slika",
+      "relationshipName": "galerija",
+      "otherEntityField": "ime"
+    }
+  ],
+  "changelogDate": "20201104105211",
+  "entityTableName": "slika",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

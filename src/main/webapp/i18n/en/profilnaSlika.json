@@ -1,0 +1,25 @@
+{
+  "popravljanjeApp": {
+    "profilnaSlika": {
+      "home": {
+        "title": "Profilna Slikas",
+        "createLabel": "Create a new Profilna Slika",
+        "createOrEditLabel": "Create or edit a Profilna Slika",
+        "search": "Search for Profilna Slika",
+        "notFound": "No Profilna Slikas found"
+      },
+      "created": "A new Profilna Slika is created with identifier {{ param }}",
+      "updated": "A Profilna Slika is updated with identifier {{ param }}",
+      "deleted": "A Profilna Slika is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Profilna Slika {{ id }}?"
+      },
+      "detail": {
+        "title": "Profilna Slika"
+      },
+      "ime": "Ime",
+      "datum": "Datum",
+      "dodatniInfoUser": "Dodatni Info User"
+    }
+  }
+}

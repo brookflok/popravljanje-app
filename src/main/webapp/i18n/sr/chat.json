@@ -1,0 +1,26 @@
+{
+  "popravljanjeApp": {
+    "chat": {
+      "home": {
+        "title": "Chats",
+        "createLabel": "Kreiraj novi Chat",
+        "createOrEditLabel": "Kreirajte ili izmenite Chat",
+        "search": "Potražite Chat",
+        "notFound": "No Chats found"
+      },
+      "created": "Kreiran je novi Chat pod nazivom {{ param }}",
+      "updated": "Chat pod nazivom {{ param }} je ažuriran",
+      "deleted": "Chat pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Chat pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Chat"
+      },
+      "datum": "Datum",
+      "postoji": "Postoji",
+      "artikl": "Artikl",
+      "ucesnici": "Ucesnici"
+    }
+  }
+}

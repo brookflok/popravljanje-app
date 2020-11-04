@@ -1,0 +1,24 @@
+{
+  "popravljanjeApp": {
+    "ucesnici": {
+      "home": {
+        "title": "Ucesnicis",
+        "createLabel": "Create a new Ucesnici",
+        "createOrEditLabel": "Create or edit a Ucesnici",
+        "search": "Search for Ucesnici",
+        "notFound": "No Ucesnicis found"
+      },
+      "created": "A new Ucesnici is created with identifier {{ param }}",
+      "updated": "A Ucesnici is updated with identifier {{ param }}",
+      "deleted": "A Ucesnici is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ucesnici {{ id }}?"
+      },
+      "detail": {
+        "title": "Ucesnici"
+      },
+      "chat": "Chat",
+      "dodatniInfoUser": "Dodatni Info User"
+    }
+  }
+}

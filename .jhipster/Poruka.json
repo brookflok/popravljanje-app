@@ -1,0 +1,45 @@
+{
+  "name": "Poruka",
+  "fields": [
+    {
+      "fieldName": "text",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "datum",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "postoji",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "dodatniInfoUser",
+      "otherEntityRelationshipName": "poruka",
+      "relationshipName": "dodatniInfoUser",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "chat",
+      "otherEntityRelationshipName": "poruka",
+      "relationshipName": "chat",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201104110011",
+  "entityTableName": "poruka",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

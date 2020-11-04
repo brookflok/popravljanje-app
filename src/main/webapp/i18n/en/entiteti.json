@@ -1,0 +1,23 @@
+{
+  "popravljanjeApp": {
+    "entiteti": {
+      "home": {
+        "title": "Entitetis",
+        "createLabel": "Create a new Entiteti",
+        "createOrEditLabel": "Create or edit a Entiteti",
+        "search": "Search for Entiteti",
+        "notFound": "No Entitetis found"
+      },
+      "created": "A new Entiteti is created with identifier {{ param }}",
+      "updated": "A Entiteti is updated with identifier {{ param }}",
+      "deleted": "A Entiteti is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Entiteti {{ id }}?"
+      },
+      "detail": {
+        "title": "Entiteti"
+      },
+      "imeEntiteta": "Ime Entiteta"
+    }
+  }
+}

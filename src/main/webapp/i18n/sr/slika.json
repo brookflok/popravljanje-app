@@ -1,0 +1,28 @@
+{
+  "popravljanjeApp": {
+    "slika": {
+      "home": {
+        "title": "Slikas",
+        "createLabel": "Kreiraj novi Slika",
+        "createOrEditLabel": "Kreirajte ili izmenite Slika",
+        "search": "Potražite Slika",
+        "notFound": "No Slikas found"
+      },
+      "created": "Kreiran je novi Slika pod nazivom {{ param }}",
+      "updated": "Slika pod nazivom {{ param }} je ažuriran",
+      "deleted": "Slika pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Slika pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Slika"
+      },
+      "ime": "Ime",
+      "slika": "Slika",
+      "uploaded": "Uploaded",
+      "mainslika": "Mainslika",
+      "mainslika": "Mainslika",
+      "galerija": "Galerija"
+    }
+  }
+}

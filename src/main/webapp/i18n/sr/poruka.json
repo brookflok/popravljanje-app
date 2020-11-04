@@ -1,0 +1,27 @@
+{
+  "popravljanjeApp": {
+    "poruka": {
+      "home": {
+        "title": "Porukas",
+        "createLabel": "Kreiraj novi Poruka",
+        "createOrEditLabel": "Kreirajte ili izmenite Poruka",
+        "search": "Potražite Poruka",
+        "notFound": "No Porukas found"
+      },
+      "created": "Kreiran je novi Poruka pod nazivom {{ param }}",
+      "updated": "Poruka pod nazivom {{ param }} je ažuriran",
+      "deleted": "Poruka pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Poruka pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Poruka"
+      },
+      "text": "Text",
+      "datum": "Datum",
+      "postoji": "Postoji",
+      "dodatniInfoUser": "Dodatni Info User",
+      "chat": "Chat"
+    }
+  }
+}

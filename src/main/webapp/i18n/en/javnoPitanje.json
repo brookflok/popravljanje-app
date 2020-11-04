@@ -1,0 +1,28 @@
+{
+  "popravljanjeApp": {
+    "javnoPitanje": {
+      "home": {
+        "title": "Javno Pitanjes",
+        "createLabel": "Create a new Javno Pitanje",
+        "createOrEditLabel": "Create or edit a Javno Pitanje",
+        "search": "Search for Javno Pitanje",
+        "notFound": "No Javno Pitanjes found"
+      },
+      "created": "A new Javno Pitanje is created with identifier {{ param }}",
+      "updated": "A Javno Pitanje is updated with identifier {{ param }}",
+      "deleted": "A Javno Pitanje is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Javno Pitanje {{ id }}?"
+      },
+      "detail": {
+        "title": "Javno Pitanje"
+      },
+      "pitanje": "Pitanje",
+      "datum": "Datum",
+      "prikaz": "Prikaz",
+      "dodatniinfoUser": "Dodatniinfo User",
+      "artikl": "Artikl",
+      "odgovorNaJavnoPitanje": "Odgovor Na Javno Pitanje"
+    }
+  }
+}

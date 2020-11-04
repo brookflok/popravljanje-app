@@ -1,0 +1,24 @@
+{
+  "popravljanjeApp": {
+    "potreba": {
+      "home": {
+        "title": "Potrebas",
+        "createLabel": "Create a new Potreba",
+        "createOrEditLabel": "Create or edit a Potreba",
+        "search": "Search for Potreba",
+        "notFound": "No Potrebas found"
+      },
+      "created": "A new Potreba is created with identifier {{ param }}",
+      "updated": "A Potreba is updated with identifier {{ param }}",
+      "deleted": "A Potreba is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Potreba {{ id }}?"
+      },
+      "detail": {
+        "title": "Potreba"
+      },
+      "cijenaMin": "Cijena Min",
+      "cijenaMax": "Cijena Max"
+    }
+  }
+}

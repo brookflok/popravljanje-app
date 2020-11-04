@@ -1,0 +1,23 @@
+{
+  "popravljanjeApp": {
+    "entiteti": {
+      "home": {
+        "title": "Entitetis",
+        "createLabel": "Kreiraj novi Entiteti",
+        "createOrEditLabel": "Kreirajte ili izmenite Entiteti",
+        "search": "Potražite Entiteti",
+        "notFound": "No Entitetis found"
+      },
+      "created": "Kreiran je novi Entiteti pod nazivom {{ param }}",
+      "updated": "Entiteti pod nazivom {{ param }} je ažuriran",
+      "deleted": "Entiteti pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Entiteti pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Entiteti"
+      },
+      "imeEntiteta": "Ime Entiteta"
+    }
+  }
+}

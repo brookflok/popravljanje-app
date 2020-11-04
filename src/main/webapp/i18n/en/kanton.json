@@ -1,0 +1,24 @@
+{
+  "popravljanjeApp": {
+    "kanton": {
+      "home": {
+        "title": "Kantons",
+        "createLabel": "Create a new Kanton",
+        "createOrEditLabel": "Create or edit a Kanton",
+        "search": "Search for Kanton",
+        "notFound": "No Kantons found"
+      },
+      "created": "A new Kanton is created with identifier {{ param }}",
+      "updated": "A Kanton is updated with identifier {{ param }}",
+      "deleted": "A Kanton is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Kanton {{ id }}?"
+      },
+      "detail": {
+        "title": "Kanton"
+      },
+      "imeKantona": "Ime Kantona",
+      "entitet": "Entitet"
+    }
+  }
+}

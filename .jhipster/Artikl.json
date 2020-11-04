@@ -1,0 +1,76 @@
+{
+  "name": "Artikl",
+  "fields": [
+    {
+      "fieldName": "ime",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kratkiOpis",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detaljniOpis",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "majstor",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "postoji",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "lokacija",
+      "otherEntityRelationshipName": "artikl",
+      "relationshipName": "lokacija",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "potreba",
+      "otherEntityRelationshipName": "artikl",
+      "relationshipName": "potreba",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "usluga",
+      "otherEntityRelationshipName": "artikl",
+      "relationshipName": "usluga",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "informacije",
+      "otherEntityRelationshipName": "artikl",
+      "relationshipName": "informacije",
+      "ownerSide": false
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "dodatniInfoUser",
+      "otherEntityRelationshipName": "artikl",
+      "relationshipName": "dodatniinfouser",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201104104611",
+  "entityTableName": "artikl",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
